@@ -11,7 +11,6 @@ class Test {
     }
 }
 
-
 public class B15596 {
 
 	public static void main(String[] args) {

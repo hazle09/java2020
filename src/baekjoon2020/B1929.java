@@ -9,6 +9,7 @@ public class B1929 {
 		Scanner sc=new Scanner(System.in);
 		int m=sc.nextInt();
 		int n=sc.nextInt();
+		//배열 크기를 잘못 잡아서 런타임 에러..ㅋㅋ 문제에서 준 n의 크기가 1000000이어서 배열 크기를 충분히 잡아야한다 
 		int[] prime=new int[100000];
 		int ptr=0;
 		
@@ -24,7 +25,7 @@ public class B1929 {
 			boolean flag=false;{
 			for(int j=1;prime[j]*prime[j]<=i;j++) {
 				if(i%prime[j]==0) {
-					flag=true;
+					flag=true; //flag가 true면 소수가 아님 
 					break;
 				}
 			}

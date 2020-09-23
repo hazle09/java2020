@@ -33,7 +33,7 @@ public class C3_q3 {
 		else
 			for(int i=0;i<count;i++)
 				System.out.println("그 값은 "+"x["+y[i]+"]에 있습니다.");
-		System.out.println(count);
+		System.out.println("key의 값과 같은 요소의 갯수:"+count);
 	}
 
 }

@@ -3,7 +3,6 @@ package baekjoon2020;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Scanner;
 
 public class B10828 {
 	
@@ -11,7 +10,6 @@ public class B10828 {
 		BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
 		String str[]=bf.readLine().split(" ");
 		int n=Integer.parseInt(str[0]);
-		int[] result=new int[n];
 		IntStack s=new IntStack(n);
 		
 	    for(int i=0;i<n;i++) {

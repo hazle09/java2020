@@ -3,7 +3,6 @@ package baekjoon2020;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 
 //백준 1654 랜선 자르기 자바 풀이
 //문제 분류- 이분탐색
